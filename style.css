@@ -39,6 +39,9 @@ body {
 .container-content .text button {
   background-color: #3882F6;
   color: #F9FAF8;
+  border-radius: 4px;
+  border: 0;
+  padding: 4px;
 }
 
 .top {
