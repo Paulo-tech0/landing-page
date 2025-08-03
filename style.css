@@ -2,6 +2,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: Roboto;
 }
 
 .container-header ul {
@@ -10,6 +11,34 @@ body {
   list-style-type: none;
   display: flex;
   gap: 16px;
+}
+
+.container-header ul a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.container-header div {
+  font-size: 24px;
+  color: #F9FAF8;
+  
+}
+
+.container-content .text h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.container-content .text p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.container-content .text button {
+  background-color: #3882F6;
+  color: #F9FAF8;
 }
 
 .top {
