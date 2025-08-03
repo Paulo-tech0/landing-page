@@ -29,11 +29,17 @@ body {
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 900;
+  margin-bottom: 8px;
+  padding: 0;
 }
 
 .container-content .text p {
   font-size: 18px;
   color: #E5E7EB;
+  max-width: 400px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  padding:0;
 }
 
 .container-content .text button {
@@ -52,7 +58,8 @@ body {
 
 .container-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 170px;
 }
 
 .container-content {
@@ -70,4 +77,8 @@ body {
 
 .bottom {
   background-color: #FFF;
+}
+
+.footer {
+  background-color: #1F2937;
 }
