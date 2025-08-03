@@ -64,7 +64,7 @@ body {
 .container-header {
   display: flex;
   justify-content: center;
-  gap: 170px;
+  gap: 200px;
   margin-top: 8px;
   margin-bottom: 32px;
 }
@@ -73,6 +73,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 64px;
+  gap: 32px;
 }
 
 ,middle-top {
