@@ -130,6 +130,31 @@ body {
 
 .bottom {
   background-color: #FFF;
+  padding: 100px 300px;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 128px;
+  padding: 32px;
+}
+
+.call-to-action p, .call-to-action h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.call-to-action button {
+  background-color: #3882F6;
+  border: solid 2px white;
+  color: #F9FAF8;
+  padding: 4px 16px;
+  max-height: 32px;
+  align-self: end;
+  border-radius: 4px;
 }
 
 .footer {
