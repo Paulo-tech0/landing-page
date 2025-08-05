@@ -101,10 +101,29 @@ body {
 .card-one img, .card-two img, .card-three img, .card-four img {
   align-self: center;
   border: 2px solid blue;
+  border-radius: 10px;
 }
 
 .middle-bottom {
   background-color: #E5E7EB;
+  display: flex;
+  padding: 128px 64px;
+  justify-content: center;
+}
+
+.middle-bottom .citation-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-bottom .citation{
+  margin: 0;
+  align-self: center;
+  max-width: 300px;
+}
+
+.middle-bottom .author {
+  align-self: end;
 }
 
 .bottom {
