@@ -119,7 +119,9 @@ body {
 .middle-bottom .citation{
   margin: 0;
   align-self: center;
-  max-width: 300px;
+  max-width: 900px;
+  font-size: 36px;
+  color: #1F2937;
 }
 
 .middle-bottom .author {
